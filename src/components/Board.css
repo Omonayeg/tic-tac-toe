@@ -1,0 +1,56 @@
+.board {
+    margin-top: 28px;
+  }
+
+
+  .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 700;    
+    height: 74px;
+    width: 74px;
+    border: 2px solid  gainsboro;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .square:hover {
+    background-color: rgb(168, 36, 36);;
+  }
+
+  /* .square:focus {
+    outline: none;
+    background: indianred;
+  } */
+
+  .cells {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .btn {
+    min-width: 66px;
+    padding: 8px;
+    margin-top: 18px;
+    background-color: rgb(168, 36, 36);;
+    border: 1px thin gainsboro;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: rgb(224, 83, 83);;
+  }
+
+  .status {
+    display: block;
+    text-align: left;
+    margin: 8px;
+  }
+
+  .status h3 {
+    padding: 6px;
+  }

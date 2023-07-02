@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Board from './components/Board';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       
+      <h1 className='heading'>
+        <span className='span'>TIC </span> 
+        <span>TAC </span>
+        <span className='span'>TOE!</span>
+      </h1>
+        <Board/>
+
+    <h6 className='name-tag'>
+       Develped by  
+      <a href='https://github.com/Omonayeg'>   Will Omonaye.</a>
+   </h6>
       </header>
+    
     </div>
   );
 }
