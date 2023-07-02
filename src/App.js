@@ -14,7 +14,7 @@ function App() {
         <Board/>
 
     <h6 className='name-tag'>
-       Develped by  
+       Develped with React by  
       <a href='https://github.com/Omonayeg'>   Will Omonaye.</a>
    </h6>
       </header>
