@@ -15,7 +15,7 @@ function App() {
 
     <h6 className='name-tag'>
        Develped with React by  
-      <a href='https://github.com/Omonayeg'>   Will Omonaye. The go2Guy</a>
+      <a href='https://github.com/Omonayeg'>      - Will Omonaye.</a>
    </h6>
       </header>
     
