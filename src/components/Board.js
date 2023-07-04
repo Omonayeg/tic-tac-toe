@@ -58,25 +58,15 @@ const Board = () => {
 
     }
 
-    // const display = (winner) =>{
 
-    //     return {
-    //         if (winner) {
-    //             <div>Winner: {winner}</div>
-    //         }, else () {
-    //             <div>Winner: "Draw"</div>
-
-    //         }
-            
-            
-    //     }
-    // }
     function calculateStatus(winner, board, currentPlayer) {
-        return winner
-          ? `Player ${winner} WINS!`
-          : board.every(Boolean)
-          ? `Scratch: Its a Draw!`
-          : `Next player: ${currentPlayer}`
+        if(winner) {
+        return `Player ${winner} WINS!`
+        } else if (board.every(Boolean)) {
+        return `Scratch: Its a Draw!`
+        } else {
+        return `Next player: ${currentPlayer}`
+        }
       }
 
       const status = calculateStatus(winner, board, currentPlayer);
